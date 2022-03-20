@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const renderPokemon = (data) => {
         const container = document.getElementById("container")
         const card = document.createElement("div")
+        card.setAttribute("class", "card")
         const name = document.createElement("h3")
         const types = document.createElement("p")
         const sprite = document.createElement("img")
